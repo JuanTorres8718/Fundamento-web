@@ -1,0 +1,96 @@
+
+/* 
+Ejercicio 4
+*/
+#page {
+    background-color: mediumpurple;
+    font-size: 18px;
+    font-family: Tahoma;
+    color: rebeccapurple;
+    line-height: 1.5em;
+}
+
+/*
+Fin del ejercicio 4
+*/
+/* --------------ejercicio 1 css------------------------- */
+
+#title {
+    text-align: center;
+    font-size: 30px;
+    color: burlywood;
+    font-family: Arial;
+}
+
+#table-ej1 {
+    text-align: center;
+    margin: auto;
+}
+
+#table-main {
+    font-size: 24px;
+    color: black;
+    background-color: blanchedalmond;
+}
+
+.table-secundary {
+    font-size: 20px;
+    color: rgb(24, 21, 10);
+    background-color: rgb(172, 167, 167);
+}
+
+.table-terceary {
+    font-size: 15px;
+    background-color:  rgb(172, 167, 167);
+}
+
+/* --------------ejercicio 2 css------------------------- */
+
+#anuncio-1{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 6.4%;
+}
+
+#anuncio-2{
+    margin-top: 4%;
+}
+
+.text-anuncio{
+    position: absolute;
+    margin-left: 120%;
+    margin-right: -100%;
+
+}
+
+.text-anuncio2{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 4%;
+    margin-right: 55%;
+    
+
+}
+
+
+#copy {
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+
+
+
+.text-link{
+    color: red;
+}
+
+.text-link:hover {
+    background-color: black;
+    color: yellow;
+}
+
+.links {
+    color: red;
+}

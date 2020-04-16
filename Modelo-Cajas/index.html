@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet, <mark>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</mark> </p>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse <mark>cillum dolore eu fugiat</mark> nulla
+        pariatur.</p>
+    <p>Excepteur <mark> sint occaecat </mark>cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est laborum.</p>
+
+    <!--
+        Se observa que resalta con un color especifico la zona que nosotros marquemos.
+        para que funcione debe ir dentro de un texto o parrafo seleccionar partes importantes y usar mark desde el inicio del texto donde empieza y marcando un final con /mark
+    -->
+
+    <div class="display inline">
+
+    </div>
+    <br>
+    <div class="display block">
+
+    </div>
+    <br>
+    <div class="display inline-block">
+
+    </div>
+    <br>
+    <div class="display none">
+
+    </div>
+
+    <!--
+       Se observa que las funciones none y inline no corresponden con los div debido a que su usabilidad es diferente y en otras funciones.
+    -->
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in <img src="images/imagen100x100.jpg" alt=""> reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum."
+    </p>
+
+    <!--
+       Se observa que la imagen hace que entre la linea 1 y la 2 quede un ancho del tamaño de la imagen
+    -->
+
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, </p>
+    <img src="images/imagen200x200.jpg" alt="">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam,
+    </p>
+    <!--
+       Se observa que la imagen no afecta a ninguno parrafo pero genera un espacio de la web
+    -->
+
+    <div class="display diseño">
+        <img src="images/imagen100x100.jpg" alt="">
+    </div>
+    <br>
+    <div class="display box-sizing">
+        <img src="images/imagen100x100.jpg" alt="">
+    </div>
+    <!--
+       Se observa que se redujo el tamaño de la caja debido a que con el box esta incluyen en el tamaño de la caja el padding y el border
+    -->
+    <br>
+    <h1>Resuelve los siguientes casos</h1>
+    <div class="col">
+        <h2>Ocultar el contenido que salga</h2>
+        <div class="container container--1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nihil sapiente
+            deleniti atque esse ab voluptatem quia eligendi iusto. Esse corporis dicta nisi repellendus blanditiis
+            sapiente ab aperiam. Quae, ut?</div>
+    </div>
+    <div class="col">
+        <h2>Añadir un scroll vertical</h2>
+        <div class="container container--2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero doloremque a
+            fuga perspiciatis et amet quae similique accusamus! Porro molestias animi laudantium cupiditate aperiam
+            harum doloribus in sed culpa. Tenetur quia incidunt ratione obcaecati rem suscipit. Delectus eos totam
+            dignissimos? Similique deleniti ullam eaque, doloremque ipsam nulla? Eum ut impedit illo earum ab, labore
+            odio repellendus dicta rem ex fugiat asperiores. Provident dolorem quaerat magnam laborum ipsa ducimus.
+            Perferendis ipsam iste qui sit voluptatem nam nihil dolore aliquam maiores pariatur obcaecati ex, rerum iure
+            iusto, voluptates laborum accusantium debitis. Laboriosam officia rem laudantium nostrum, quo alias
+            expedita. Ab, aspernatur illum.</div>
+    </div>
+
+
+</body>
+
+</html>

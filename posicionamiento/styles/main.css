@@ -1,0 +1,172 @@
+li {
+    display: inline;
+}
+
+.divh {
+    height: 300px;
+    width:  300px;
+    margin: 40px;
+    padding: 30px;
+    position: relative;
+}
+
+.hijo1{
+    background-color: teal;
+    left: 100px;
+    top: 50px;
+}
+
+.hijo2{
+    background-color: red;
+    right: 150px;
+    bottom: 320px;
+}
+
+.hijo3{
+    background-color: royalblue;
+    left: 180px;
+    bottom: 240px;
+}
+
+/* ---------------ejercicio 3 css ---------------------*/
+
+.bodyej3 {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+}
+
+
+.headej3 {
+    position: fixed;
+    width: 900px;
+    z-index: 999;
+    height: 60px; 
+    background-color: purple;
+}
+
+.mainej3 {
+    position: relative;
+    top: 80px;
+}
+
+
+/* ---------------ejercicio 5 css ---------------------*/
+
+.div1{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    position: absolute;
+    padding:  40px;
+    border: 2px;
+    box-sizing: border-box;
+}
+
+.div2{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    position: absolute;
+    padding: 75px;
+    box-sizing: border-box;
+    margin: 90px;
+}
+
+.div3{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+    border: 20px;
+    box-sizing: border-box;
+    margin: 160px;
+}
+
+
+/* ---------------ejercicio 6 css ---------------------*/
+
+.cookies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    position: fixed;
+    bottom: 20px;
+    left: 200px;
+    background-color: yellow;
+}
+
+/* ---------------ejercicio 7 css ---------------------*/
+
+.bodyej7 {
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/* ---------------ejercicio 8 css ---------------------*/
+
+
+.download {
+    max-width: 500px;
+    font-size: 21px;
+    color: rgb(184, 184, 184);
+}
+
+.posi {
+    position: absolute;
+    bottom:-400px;
+}
+
+.izq{
+    position: absolute;
+    left: 475px;
+    bottom: -390px;
+}
+
+.hr {
+    
+    position: absolute;
+    width: 500px;
+    bottom: -392px;
+    background-color: rgb(184, 184, 184);
+}
+
+
+
+/* ---------------ejercicio 9 css ---------------------*/
+
+
+.bodyej9{
+    border: 8px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.divej9 {
+    margin-top: 106px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.textej9{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.titlej9{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.pej9 {
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.elej9{
+    padding: 8px 16px;
+    margin-left: -16px;
+}

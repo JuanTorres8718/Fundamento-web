@@ -1,0 +1,279 @@
+.color {
+    background-color: cyan;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.wrap {
+    display: flex ;
+    flex-wrap: wrap;
+    max-width: 80vw;
+}
+
+/* --------------ejercicio flexpage css------------------------- */
+
+a {
+    color: black;
+}
+
+.menu {
+    height: 100px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.separari {
+    margin-left: 20px;
+}
+
+.separard {
+    margin-right: 20px;
+}
+
+.acomodar {
+    flex-basis: 6em;
+}
+.acomodar1 {
+    flex-basis: 5em;
+}
+
+
+
+.ensayo {
+    height: 10em;
+    background-color: thistle;
+    
+}
+
+.ensayo1 {
+    height: 200px;
+    width: 600px;
+    background-color: thistle;
+}
+
+
+.container { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secun {
+    width: 50%;
+}
+
+.ord {
+    order:-1;
+    width: 100%;
+}
+
+
+/* --------------ejercicio flex-grow css------------------------- */
+
+
+.menugrow {
+    height: 100px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.cuerpo {
+    text-align: center;
+    background-color: wheat;
+    min-height: 72vh;
+}
+
+.bot{
+    display: flex;
+    background-color: yellowgreen;
+    min-height: 9vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* --------------ejercicio 6 css------------------------- */
+
+.ancho {
+    width: 100%;
+    max-width: 960px;
+
+}
+
+
+.mainflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex1 {
+    background-color: burlywood;
+    width: 20%;
+    text-align: center;
+}
+
+.flex2 {
+    background-color: cornflowerblue;
+    width: 60%;
+}
+
+.flex3{
+    background-color: darkslateblue;
+    width: 20%;
+    text-align: center;
+}
+.headflex{
+    background-color: darkgrey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footflex{
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* --------------ejercicio 7 css------------------------- */
+
+.puntuacion {
+    width: 100%;
+    max-width: 840px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cont-img {
+    width: 12%;
+}
+
+.cont-dat {
+    width: 66%;
+
+}
+
+.cont-punt{
+    width: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cont-val {
+    width: 16%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.punto {
+    background-color: rgb(182, 182, 182); 
+    height: 35px; 
+    width: 35px; 
+    border-radius: 5px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.button {
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.btnr {
+    background-color: rgb(182, 182, 182) ;
+    color: white;
+}
+
+.btnp {
+    background-color:  white;
+    color:  rgb(182, 182, 182);
+}
+
+.text-color{
+    color: rgb(182, 182, 182);
+}
+
+.text-size {
+    text-align: right;
+    font-size: 13px;
+    color: rgb(182, 182, 182);
+}
+
+
+/* --------------ejercicio 8 css------------------------- */
+
+.bodyej8{
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+}
+
+.tamej8{
+    padding-right: 7em;
+    padding-left:  7em;
+}
+
+
+.cabeza {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    
+}
+
+.mainej8 {
+    min-height: 40em;
+}
+
+.ac {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.aci{
+    /* margin-right: 50%; */
+    font-size: 16px;
+}
+
+.mainautor{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: rgb(148, 148, 148);
+}
+
+.botej8 {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(148, 148, 148);
+    border-top: 2px solid rgb(204, 204, 204);
+    border-bottom: 2px solid rgb(204, 204, 204);
+    align-items: center;
+    height: 45px;
+}
+
+.botlink {
+    text-decoration: none;
+    font-size: 15px;
+    color:rgb(148, 148, 148) ;
+}
+
+
