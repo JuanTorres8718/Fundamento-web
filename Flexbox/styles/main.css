@@ -217,38 +217,53 @@ a {
 
 .bodyej8{
     width: 100%;
-    max-width: 600px;
     height: 100%;
+
 }
+
 
 .tamej8{
     padding-right: 7em;
     padding-left:  7em;
 }
 
+#conthead {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+}
 
 .cabeza {
-    background-color: black;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 45px;
-    
+    max-width: 600px;
+
+}
+
+
+#contmain {
+    display: flex;
+    justify-content: center;
 }
 
 .mainej8 {
     min-height: 40em;
+    max-width: 600px;
 }
 
 .ac {
     color: white;
     text-decoration: none;
-    font-size: 11px;
+    margin:  0 5px;
+    font-size: 16px;
 }
 
 .aci{
-    /* margin-right: 50%; */
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .mainautor{
@@ -260,20 +275,78 @@ a {
     color: rgb(148, 148, 148);
 }
 
+#contbot{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(204, 204, 204);
+    border-bottom: 2px solid rgb(204, 204, 204);
+}
+
 .botej8 {
+    width: 45%;
     display: flex;
     justify-content: space-between;
     color: rgb(148, 148, 148);
-    border-top: 2px solid rgb(204, 204, 204);
-    border-bottom: 2px solid rgb(204, 204, 204);
     align-items: center;
     height: 45px;
 }
 
 .botlink {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 17px;
     color:rgb(148, 148, 148) ;
 }
 
+/* --------ejercicio 12 css posicionamiento---------------------- */
 
+#modal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(94, 91, 91, 0.5) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal .contmodal {
+    width: 38vw;
+    height: 45vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#modal .contmodal h1 {
+    margin: 0 auto;
+}
+
+#modal .contmodal #txtcenter{
+    margin: 30px 43px;
+}
+
+.btn {
+    font-size: 20px;
+    margin: 10px 17px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 11vw;
+    height: 6vh;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#modal .contmodal  .btnclose{
+    background-color: white;
+    color: black;
+}
+
+#modal .contmodal  .btnsuccess{
+    background-color: black;
+    color: white;
+}
