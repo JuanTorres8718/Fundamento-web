@@ -1,0 +1,83 @@
+form{
+    position: absolute;
+    top: 5%;
+    left: 33%;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+form label{
+    font-weight: bold;
+}
+
+form #full-name {
+    display: flex;
+}
+
+form #full-name input{
+    margin-right: 2%;
+    width: 9vw;
+}
+
+form .input-form{
+    margin-bottom: 17px;
+    height: 2vh;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+form #email{
+    text-align: right;
+}
+
+form #birthday .input-birthday{
+    height: 2vh;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-right: 1.5%;
+    margin-bottom: 17px;
+}
+
+form #birthday #month{
+    height: 3.5vh;
+    width: 8.5vw;
+    background-color: #f1f1f1;
+}
+
+form #birthday #day{
+    width: 3vw;
+}
+
+form #birthday #year{
+    width: 5vw;
+}
+
+form #gender{
+    height: 3.5vh;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+form #location{
+    height: 3.5vh;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+form .btn{
+    height: 4vh;
+    width: 8vw;
+    font-weight: bold;
+    color: white;
+    background-color: #4c8ffb;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 59%;
+}

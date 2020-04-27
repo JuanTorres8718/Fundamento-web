@@ -1,0 +1,41 @@
+#anuncio-1{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 6.4%;
+}
+
+#anuncio-2{
+    margin-top: 4%;
+}
+
+.text-anuncio{
+    position: absolute;
+    margin-left: 120%;
+    margin-right: -100%;
+
+}
+
+.text-anuncio2{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 4%;
+    margin-right: 55%;
+    
+
+}
+
+
+#copy {
+    margin-top: 5%;
+    text-align: center;
+}
+
+/* css ejercicio 4 */
+
+#page {
+    background-color: mediumpurple;
+    font-size: 18px;
+    font-family: Tahoma;
+    color: rebeccapurple;
+    line-height: 1.5em;
+}

@@ -1,0 +1,28 @@
+body{
+    margin:0;
+}
+
+.row{
+    height: 20vh;
+}
+
+.h3{
+    margin-bottom: 0;
+}
+
+#menu-content{
+    height: 60vh;
+}
+
+.header{
+    background-color: #fec1cc;
+}
+.menu{
+    background-color: #4a0e80;
+}
+.content{
+    background-color: #cb5c5e;
+}
+.footer{
+    background-color: #aed8e5;
+}

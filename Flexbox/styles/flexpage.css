@@ -1,0 +1,60 @@
+
+
+a {
+    color: black;
+}
+
+.menu {
+    height: 100px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.separari {
+    margin-left: 20px;
+}
+
+.separard {
+    margin-right: 20px;
+}
+
+.acomodar {
+    flex-basis: 6em;
+}
+.acomodar1 {
+    flex-basis: 5em;
+}
+
+
+
+.ensayo {
+    height: 10em;
+    background-color: thistle;
+    
+}
+
+.ensayo1 {
+    height: 200px;
+    width: 600px;
+    background-color: thistle;
+}
+
+
+.container { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secun {
+    width: 48%;
+    margin: 12px;
+}
+
+.ord {
+    order:-1;
+    width: 100%;
+}
+

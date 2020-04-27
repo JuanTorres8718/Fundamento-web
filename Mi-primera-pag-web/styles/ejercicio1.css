@@ -1,0 +1,28 @@
+#title {
+    text-align: center;
+    font-size: 30px;
+    color: burlywood;
+    font-family: Arial;
+}
+
+#table-ej1 {
+    text-align: center;
+    margin: auto;
+}
+
+#table-main {
+    font-size: 24px;
+    color: black;
+    background-color: blanchedalmond;
+}
+
+.table-secundary {
+    font-size: 20px;
+    color: rgb(24, 21, 10);
+    background-color: rgb(172, 167, 167);
+}
+
+.table-terceary {
+    font-size: 15px;
+    background-color:  rgb(172, 167, 167);
+}

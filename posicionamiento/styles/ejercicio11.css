@@ -1,0 +1,58 @@
+/* ---------------ejercicio 11 css ---------------------*/
+#bodyej11{
+
+    background-color: grey;
+
+}
+
+#headtitle{
+    text-align: center;
+    font-size: 20px;
+}
+
+#contmain{
+
+    display: flex;
+    justify-content: center;
+}
+
+#contmain .sectiontxt{
+    text-align: justify;
+    font-size: 20px;
+    width: 50%;
+    
+}
+
+#contmain .asidecookies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    position: fixed;
+    border-radius: 5px;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgb(233, 175, 122);
+}
+
+#stylefooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+#stylefooter li {
+    display: inline;
+    margin: 0 20px;
+}
+
+#stylefooter li img {
+    width: 9%;
+    border-radius: 15px;
+    
+}
+
+

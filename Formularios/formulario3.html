@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3</title>
+    <link rel="stylesheet" href="css/formulario3.css">
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Create an account</h1>
+        <small class="size">it´s free and always will be</small>
+        <input type="hidden" id="browser" name="browser" value="Google Chrome">
+        <section id="full-name">
+            <input placeholder="First name" id="name" type="text" required name="name" class="input-form">
+            <input placeholder="Surname" id="surname" type="text"  name="surname" class="input-form">
+        </section>  
+        <input placeholder="Email" id="email" type="email" class="input-form" required  name="email">
+        <input placeholder="Re-enter email" id="re-email" class="input-form" type="email" required  name="re-email">
+        <input placeholder="New password" id="password" class="input-form" required  type="password" name="password">
+        <label class="size" for="birthday">Birthday</label>
+        <section id="birthday">
+            <input class="input-birthday" type="number" min="1" max="31" id="day" name="day" placeholder="Day">
+            <select class="input-birthday" name="month" id="month">
+                <option value="">Month</option>
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+            <input class="input-birthday" type="number" id="year" placeholder="Year" name="year" min="1960" max="2020">
+        </section>
+        <section id="gender">
+            <input type="radio" id="gender" name="gender">
+            <label for="gender">Female</label>
+            <input type="radio" id="gender" name="gender">
+            <label for="gender">Male</label>      
+        </section> 
+        <label class="size"  for="input-cm">Enter your height in cm</label>
+        <input type="number" id="input-cm" min="50" max="250" value="150">
+        <textarea name="textarea" id="textarea" cols="40" rows="5" placeholder=" write something from your profile..."></textarea>
+        <section id="policy">
+            <input type="checkbox" name="terms" id="terms" required>
+            <p>Check if you agree to our Terms and that you have read out Data Policy, Including out Cookie use</p>
+        </section>
+       <section id="section-button">
+        <button class="btn" type="submit">Create an account</button>
+        <input class="btn" type="reset" value="Restore defaults">
+       </section> 
+      </form>
+</body>
+</html>

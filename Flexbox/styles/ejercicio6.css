@@ -1,0 +1,40 @@
+
+.ancho {
+    width: 100%;
+    max-width: 960px;
+
+}
+
+
+.mainflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex1 {
+    background-color: burlywood;
+    width: 20%;
+    text-align: center;
+}
+
+.flex2 {
+    background-color: cornflowerblue;
+    width: 60%;
+}
+
+.flex3{
+    background-color: darkslateblue;
+    width: 20%;
+    text-align: center;
+}
+.headflex{
+    background-color: darkgrey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footflex{
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+}
+

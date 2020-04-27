@@ -1,0 +1,35 @@
+
+
+.bodyej9{
+    border: 8px solid;
+    border-color: black;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+}
+
+.divej9 {
+    margin-top: 106px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.textej9{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.titlej9{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.pej9 {
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.elej9{
+    padding: 8px 16px;
+    margin-left: -16px;
+}

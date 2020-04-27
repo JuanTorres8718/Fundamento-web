@@ -1,0 +1,31 @@
+body {
+
+    background-color: rgb(216, 216, 216);
+}
+
+.popup{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.popup:hover{
+   margin-top: 800px;
+
+   transition: margin-top ease 6s;
+}
+
+.popup h1{
+    font-size: 50px;
+    color: rgb(5, 192, 130);
+}
+
+

@@ -1,0 +1,95 @@
+form{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 20px;
+    background: linear-gradient(0deg, #daddec, transparent);
+}
+
+form h1{
+    margin: 0;
+    font-size: 45px;
+}
+
+form .input-form{
+    height: 3.5vh;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+}
+
+form #name , #surname {
+    width: 44.5%;
+}
+
+form .size{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form #birthday .input-birthday{
+    height: 3vh;
+    width: 5vw;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+form #birthday #month{
+    height: 3.7vh;
+}
+
+form #gender{
+    margin-bottom: 10px;
+}
+
+form #input-cm{
+    width: 5vw;
+    height: 3vh;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+form textarea{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+form #policy input {
+    transform: scale(1.5);
+}
+
+form #policy {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form #policy p {
+    width: 81%;
+    margin: 0;
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+form #section-button .btn{
+    height: 5vh;
+    width: 17.5vw;
+    background-color: #67a454;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+

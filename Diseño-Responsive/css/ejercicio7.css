@@ -1,0 +1,24 @@
+
+#font-color{
+    width: 100vw;
+    height: 100vh;
+}
+
+@media only screen and (max-width:480px){
+    #font-color{
+        background-color: red;
+    }
+    
+}
+
+@media only screen and (min-width:480px) and (max-width:768px){
+    #font-color{
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width:768px){
+    #font-color{
+        background-color: green;
+    }
+}

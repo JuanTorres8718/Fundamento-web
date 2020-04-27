@@ -1,0 +1,20 @@
+
+.bodyej3 {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+}
+
+
+.headej3 {
+    position: fixed;
+    width: 900px;
+    z-index: 999;
+    height: 60px; 
+    background-color: purple;
+}
+
+.mainej3 {
+    position: relative;
+    top: 80px;
+}

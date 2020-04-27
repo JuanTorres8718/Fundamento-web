@@ -1,0 +1,188 @@
+
+#bodyej8{
+    padding: 10px ;
+}
+
+#sectionej8{
+    padding-bottom: 5px;
+    background-color: rgb(165, 165, 165);
+    font-weight: bold;
+    height: 100vh;
+}
+
+#sectionej8 nav{
+    background-color: greenyellow;
+}
+
+#sectionej8 main{
+    background-color: yellow
+}
+
+#sectionej8 footer{
+    background-color: grey;
+}
+
+
+
+
+@media only screen and (max-width:480px){
+
+    #sectionej8 nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    #sectionej8 main h2 {
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width:480px) and (max-width:1000px){
+
+    #sectionej8 nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    #sectionej8{
+        padding: 10px;
+        display: grid;
+        grid-template-areas: "head head "
+        "nav main "
+        "none main "
+        "none main "
+        "none footer ";
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 80px 62px 1fr 10px 150px;
+        column-gap: 20px;
+    }
+
+
+    #sectionej8 header{
+        grid-area: head;
+         
+    }
+    #sectionej8 header h1{
+        margin: 0 auto;
+        font-size: 45px; 
+    }
+
+    #sectionej8 main h2 {
+        margin: 0 auto;
+        flex-basis: 100%;
+        font-size: 28px;
+    }
+    
+    #sectionej8 nav{
+        grid-area: nav;
+    }
+
+    #sectionej8 main{
+        grid-area: main;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #sectionej8 main p{
+        flex-basis: 51%;
+        font-size: 21px;
+        margin: 0;
+        text-align: left;
+        height: 56vh;
+        overflow-x: auto;
+    }
+
+    #sectionej8 footer {
+        grid-area: footer;
+        overflow-x: scroll;
+    }
+
+    #sectionej8 main aside {
+        background-color: orange;
+        width: 20vw;
+        height: 45vh;
+        flex-basis: 48%;
+
+    }
+}
+
+@media only screen and (min-width:1000px){
+
+    #sectionej8 nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    #sectionej8{
+        display: grid;
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-areas: "head head head"
+                             "nav main footer"
+                             "none main footer";
+        grid-template-rows: 80px 62px ; 
+        gap: 20px;                    
+    }
+
+    #sectionej8 header{
+        grid-area: head;
+         
+    }
+
+    #sectionej8 header h1{
+        margin: 0 auto;
+        font-size: 50px; 
+    }
+
+    #sectionej8 nav{
+        grid-area: nav;
+    }
+
+    #sectionej8 main h2 {
+        margin: 0 auto;
+        flex-basis: 100%;
+        font-size: 37px;
+    }
+
+
+    #sectionej8 main{
+        grid-area: main;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #sectionej8 main p{
+        flex-basis: 51%;
+        font-size: 21px;
+        margin: 0;
+        text-align: left;
+        height: 70vh;
+        overflow-x: auto;
+    }
+
+    #sectionej8 footer h3{
+        font-size: 22px;
+
+    }
+
+    #sectionej8 main aside {
+        background-color: orange;
+        width: 20vw;
+        height: 45vh;
+        flex-basis: 48%;
+
+    }
+
+    #sectionej8 footer {
+        grid-area: footer;
+        height: 35vh;
+        
+    }
+
+
+}

@@ -1,0 +1,25 @@
+
+
+.menugrow {
+    height: 100px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.cuerpo {
+    text-align: center;
+    background-color: wheat;
+    min-height: 72vh;
+}
+
+.bot{
+    display: flex;
+    background-color: yellowgreen;
+    min-height: 9vh;
+    justify-content: center;
+    align-items: center;
+}
+
