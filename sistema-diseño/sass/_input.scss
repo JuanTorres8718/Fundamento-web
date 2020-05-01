@@ -1,0 +1,58 @@
+.input-control{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.label-control{
+    width: 50%;
+    margin-bottom: 24px;
+    color: #8080809e;
+}
+
+
+.input{
+    width: 99%;
+    height: 5vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 10px 0px;
+    border-color: grey;
+    color: rgb(122, 122, 122);
+    
+}
+
+.input:active{
+    color: black;
+    border-color: #00c3ff;
+}
+
+
+.input:hover{
+    border-color: #23c6f7;
+    background-color: #f3f3f3;
+}
+
+
+.input:focus{
+    border-color: #14b5f5;
+    background-color: #e6e6e6;
+}
+
+.input:invalid:required{
+    border-color: #f35033;
+    
+}
+
+.valid:valid{
+    border-color: #33f373;
+}
+
+.input:disabled{
+    border-bottom-style: dashed;
+    background-color: #d0d0d0;
+    border-color: #5f6a6e;
+}

@@ -1,0 +1,106 @@
+body {
+  font-family: "Georgia", "times", serif;
+}
+
+.bg-primary {
+  background-color: #0747a6;
+}
+
+.color-text-primary {
+  color: #deebff;
+}
+
+.color-text-white {
+  color: #ffffff;
+}
+
+.text-weight-500 {
+  font-weight: 500;
+}
+
+.text-weight-500 {
+  font-weight: 400;
+}
+
+.text-size-md {
+  font-size: 24px;
+}
+
+.text-size-sm {
+  font-size: 14px;
+}
+
+.text-size-lg {
+  font-size: 54px;
+}
+
+.input-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.label-control {
+  width: 50%;
+  margin-bottom: 24px;
+  color: #8080809e;
+}
+
+.input {
+  width: 99%;
+  height: 5vh;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 19px;
+  font-weight: 700;
+  margin: 10px 0px;
+  border-color: grey;
+  color: #7a7a7a;
+}
+
+.input:active {
+  color: black;
+  border-color: #00c3ff;
+}
+
+.input:hover {
+  border-color: #23c6f7;
+  background-color: #f3f3f3;
+}
+
+.input:focus {
+  border-color: #14b5f5;
+  background-color: #e6e6e6;
+}
+
+.input:invalid:required {
+  border-color: #f35033;
+}
+
+.valid:valid {
+  border-color: #33f373;
+}
+
+.input:disabled {
+  border-bottom-style: dashed;
+  background-color: #d0d0d0;
+  border-color: #5f6a6e;
+}
+
+form {
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  margin-top: 80px;
+}
+/*# sourceMappingURL=main.css.map */

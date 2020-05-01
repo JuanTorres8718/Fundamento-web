@@ -13,14 +13,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-
+    background-color: antiquewhite;
 }
 
-.popup:hover{
-   margin-top: 800px;
+.sube{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin-bottom: -1200px;
+}
 
-   transition: margin-top ease 6s;
+
+.popup:hover .sube{
+   margin-bottom: 0px;
+
+   transition: margin-bottom ease 5s;
 }
 
 .popup h1{

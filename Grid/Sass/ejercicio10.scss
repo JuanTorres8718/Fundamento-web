@@ -1,0 +1,48 @@
+.border{
+    height: 10vh;
+    border: 2px solid black;
+}
+
+.contenedor {
+    width: 80vw;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.h-col{
+    height: 30vh;
+}
+
+h1{
+    font-size: 90px;
+}
+
+.pw{
+    width: 24vw;  
+    margin-top: -25px;
+    opacity: 0.9;
+}
+
+@media only screen and(max-width:1000px){
+    .pw{
+        width: 37vw;  
+        margin-top: -25px;
+        opacity: 0.9;
+    }
+}
+
+@media only screen and(max-width:765px){
+    .pw{
+        width: 76vw;  
+        margin-top: -25px;
+        opacity: 0.9;
+    }
+}
+
+@media only screen and(max-width:425px){
+    .pw{
+        width: 72vw;  
+        margin-top: -25px;
+        opacity: 0.9;
+    }
+}
